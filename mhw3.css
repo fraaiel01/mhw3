@@ -1,0 +1,276 @@
+body {
+    margin:0px;
+}
+    
+    header {
+        display: flex;
+        align-items: center;
+        height:500px;
+        width: 100%;
+        position:relative;
+        background-image: url(https://img.freepik.com/free-vector/3d-social-media-icons-background_52683-28863.jpg?t=st=1648637991~exp=1648638591~hmac=fb82fb0357dad00bdbde5ecad53626ef4914491327a79defb9396bab15dcfee3&w=900);
+        background-position: center;
+        background-size: cover;
+        }
+
+    #navigazione{
+        display:flex;
+        justify-content:space-between;
+        align-items: center;
+        background-color: rgba(0,0,0,.6);
+        height: 60px;
+        position:fixed;
+        top:0;
+        right:0;
+        left:0;
+        color: white;
+        font-family:'Gothic A1', sans-serif;
+    }
+
+    
+
+    #elementi {
+        display:flex;
+        justify-content:space-around;
+        width: 450px;
+        
+    }
+
+    @media (max-width: 500px) {
+        #elementi {
+        margin: 10px;
+        }
+    }
+
+
+    #logout a{
+        color:white;
+        border: 2px solid grey;
+        border-radius: 6px;
+        padding: 3px 8px;
+        background-color: grey;
+        text-decoration: none;
+    }
+
+    #titolo{
+        font-family: 'Gothic A1';
+        font-size: 25px;
+        padding: 12px;
+    }
+  
+    header h1{
+        position: relative;
+        font-weight: normal;
+        font-size: 70px; 
+        font-family: 'Kanit', sans-serif;
+        color:white;
+        padding: 3px 10px;
+        border-radius:10px;
+        border: 4px solid white; 
+        margin-left: 400px; 
+        
+    }
+
+    @media (max-width: 500px) {
+        header h1 {
+        font-size: 28px;
+        margin-left:auto;
+        margin-right: auto;
+        }
+    }
+
+    #overlay{
+        background-color: rgba(0, 0, 0, 0.3);
+        position: absolute;   
+        top: 0;
+        left:0;
+        height: 100%;
+        width: 100%;
+    }
+    
+
+
+    #profilo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: -50px;
+        position: relative;
+        font-family:'Signika', sans-serif;
+
+
+    }
+
+    #Stato{
+        font-size: 12px;
+        margin-top: -70px;
+        margin-bottom: 80px;
+    }
+
+    #immagine{
+         width: 110px;
+         border-radius: 30px;
+         margin-bottom: 6px;
+         
+         
+    }
+
+    #Nome{
+        font-size: 25px;
+        margin-bottom: 70px;
+    }
+
+    #generale{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .sezione{
+        display: flex;
+        align-items: baseline;
+        margin: 0% 25%;
+    }
+
+    @media (max-width: 500px) {
+        .sezione {
+        width: 80%;
+        
+        }
+    }
+
+    .numerazione{
+        margin-right:40px;
+        font-family: 'Saira', sans-serif;
+        color: gray;
+        font-size: 35px;
+    }
+
+    @media (max-width: 500px) {
+        .numerazione {
+        margin-left: -10px;
+        }
+    }
+
+    .paragrafo{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 120px;
+    }
+
+    .Titolo{
+        font-size: 40px;
+        margin-bottom: 5px;
+        color:black;
+    }
+
+    .Utenti{
+        margin-bottom: 20px;
+        color: rgb(32, 32, 170);
+    }
+
+    .Descrizione{
+        color: rgb(72, 139, 206);
+        margin-bottom: 35px;
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .Logo{
+        width: 100%;
+        height: 100%;
+    }
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 170px;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0.3);
+        margin-top: 70px;
+    }
+
+    p{
+        text-align: center;
+        margin-top: 40px;
+    }
+    
+    #Contatti a{
+        text-decoration: none;
+        color:black;
+        margin-top: 20px;
+
+    }
+
+    #duck {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 40%;
+        margin-bottom: 10%;
+        margin-top: 5%;
+    }
+
+
+    div #Risposta1{
+        border: 1px solid rgb(17, 156, 65);
+        border-radius: 5px;
+        padding: 2px;
+        width: 250px;
+        height: 250px;
+        
+    }
+
+    #Risposta1 img {
+        width: 100%;
+        height:100% ;
+    }
+
+   #sezione_spotify img{
+       width: 100%;
+       height: 100%
+   }
+
+    #spotify{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        margin-bottom: 10%;
+    }
+
+    #sezione_spotify .canzone{
+        margin-top: -70px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid white;
+        max-width: 250px;
+        border: solid rgb(17, 156, 65);
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+     .intestazione{
+        display: flex;
+        align-items: baseline;
+    }
+
+    .intestazione2{
+        display: flex;
+        align-items: baseline;
+        margin-right: 450px;
+        margin-bottom: 5%;
+    }
+   
+
+
+   
+
+    
+
+
+   
+        
